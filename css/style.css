@@ -1,0 +1,580 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* border:1px solid red; */
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+a:hover{
+    color: #F3603B;
+}
+
+header{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color:#242E52;
+    display:flex;
+    justify-content: space-between;
+    padding: 70px 160px;
+}
+
+header h1{
+    display: none;
+}
+
+header img{
+    width: 160px;
+    height: 25px;
+}
+
+header nav ul{
+    display:flex;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    /* color: #242E52; */
+    padding: 14px;
+}
+
+button{
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    background-color:#F3603B;
+    border-radius: 50px;
+    border: none;
+    padding: 12.5px 30.5px;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #FAFAFA;
+    color:#F3603B
+}
+
+i.fa-solid{
+    display: none;
+}
+/***************MAIN**************/
+main section.primera{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main section.primera div{
+    /* flex-wrap: wrap; */
+    width: 40vw;
+}
+
+main section.primera div h3{
+    color:#232C50;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 98%;
+}
+
+main section.primera div p.principal{
+    font-weight: 500;
+    font-size: 1.65rem;
+    line-height: 26.01px;
+    padding: 28px 0;
+}
+
+main section.primera div img{
+    width: 100%;
+}
+
+/* ****************segunda seccion**************** */
+
+main section.segunda{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+main section.segunda div.artizq{
+    flex-wrap: wrap; 
+    width: 40%;
+    margin: 80px 0;
+}
+
+main section.segunda div h4{
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 114.6%;
+    color: #232851;
+}
+
+main section.segunda div p.secundario{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 151.1%;
+    padding-top: 36px;
+    color:#000000;
+    width: 85%;
+}
+
+main section.segunda div.artderecha{
+    margin: 80px 0;
+    width: 40%;
+}
+
+main section.segunda div.artderecha div.contenedor{
+    display: flex;
+}
+
+main section.segunda div.artderecha div.contenedor div p{
+    border-radius: 50px;
+    background-color:#F3603B;
+    color: #FFFFFF;
+    margin-right: 20px;
+    margin-top: 0;
+    width: 65px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+main section.segunda div.artderecha div.contenedor article h6{
+    margin:0;
+    padding-top: 10px;
+    color: #323851;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 23px;
+}
+
+main section.segunda div.artderecha div.contenedor article p{
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 20px;
+    color:#B3B2B7;
+    padding: 20px 0;
+    width: 85%;
+}
+
+/* *************tercer seccion****************** */
+
+main section.tercera h3{
+    font-weight: 700;
+    font-size: 3.92rem;
+    line-height: 156.6%;
+    text-align: center;
+    margin-top:60px;
+    color: #242E53;
+    font-weight: bold;
+}
+
+main section.tercera div{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start ;
+}
+
+main section.tercera article{
+    background-color: #FAFAFA;
+    width: 30%;
+    margin: 100px 0;
+    text-align: center;
+    position: relative;
+}
+
+main section.tercera img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 42%;
+    top:-35px;
+}
+
+main section.tercera article h6{
+    color: #3F4868;
+    font-weight: 700;
+    font-size:1.6rem;
+    line-height: 156.6%;
+    margin-top: 60px;
+}
+
+main section.tercera p{
+    color: #B9B9C1;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 156.6%;
+    padding: 20px 10px;
+}
+
+main section.tercera button{
+    position:relative;
+    left: calc(50% - 43.5px);
+    margin: 30px 0;
+}
+
+/* ************section 4 *************** */
+
+main section.cuarta{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F3603B;
+    margin-top: 60px;
+}
+
+main section.cuarta h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 48px;
+    padding: 64px 0px;
+    width: 40.98%;
+}
+
+main section.cuarta button{
+    background-color: #FFFFFF;
+    color:#F3603B;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+main section.cuarta button:hover{
+    background-color: #B9B9C1;
+    color:#FAFAFA;
+    cursor:pointer;
+}
+
+footer{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div.icons img.logofooter{
+    padding:100px 0px 0px 150px;
+}
+
+footer div.icons nav ul.redes{
+    display: flex;
+    padding-left:150px;
+}
+
+footer div.icons nav ul li{
+    padding:66px 7px;
+}
+
+footer div.icons nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 23px;
+    padding-bottom: 12px;
+}
+
+footer div.icons nav ul li a:hover{
+    color:#F3603B;
+}
+
+footer div.enlaces{
+    display: flex;
+    justify-content:space-evenly;
+    width:100%;
+}
+
+footer div.enlaces nav.hiperv{
+    padding: 86px 45px;    
+}
+
+footer div.enlaces nav.hiperv ul li{
+    padding-bottom: 20px;
+}
+
+footer div.enlaces nav.hiperv ul li a{    
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 20px;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+footer div.enlaces nav.hiperv ul li a:hover{
+    color: #F3603B;
+}
+
+footer div.formulario{
+    padding-top: 83px;
+    padding-right: 175px;
+    position: relative;
+}
+
+footer div.formulario form{
+    display: flex;
+    align-items: center;
+}
+
+footer div.formulario form input{
+    padding: 10px;
+    width: 201px;
+    height: 44px;
+    border-radius: 50px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+footer div.formulario form button{
+    padding: 11.5px 22px;
+    box-shadow: none;
+}
+
+footer div.formulario p{
+    color:#8C8C94;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 18px;
+    padding-top: 86.43px;
+    position: absolute;
+    left: 30%;
+}
+
+@media (max-width:375px){
+    
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 30px;
+        position:relative
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header button{
+        display: none;
+    }
+
+    header i.fa-solid{
+        display: block;
+        font-size: 25px;
+        position: absolute;
+        top: 48px;
+        left: 310px;
+    }
+
+    main{
+        width: 100%;
+
+    }
+
+    main section.primera{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    main section.primera div{
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    main section.primera div h3{
+        font-size: 3rem;
+        line-height: 40px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    main section.primera div p.principal{
+        font-size: 1.4rem;
+    }
+    
+    main section.segunda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section.segunda div.artizq{
+        width: 80%;
+        text-align: center;
+    }
+
+    main section.segunda div.artizq h4{
+        font-size: 3rem;
+        padding: 0 25px;
+    }
+
+    main section.segunda div.artizq p.secundario{
+        margin: 0;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    main section.segunda div.artderecha{
+        margin: 0px;
+        width: 90%;
+        text-align: center;
+    }
+
+    main section.segunda div.artderecha div.contenedor{
+        position: relative;
+    }
+
+    main section.segunda div.artderecha div.contenedor div{
+        position:absolute;
+        z-index: -1;
+    }
+
+    main section.segunda div.artderecha div.contenedor article h6{
+        position: absolute;
+        left: 85px;
+    }
+
+    main section.segunda div.artderecha div.contenedor article p{
+        width: 95%;
+        text-align: justify;
+        padding: 50px 0px;
+    }
+
+    main section.tercera{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main section.tercera h3{
+        margin: 0px 30px;
+        font-size: 30px;    
+    }
+
+    main section.tercera div article.off{
+        display: none;
+        
+    }
+
+    main section.tercera div article{
+        width: 80%;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    main section.tercera div article img{
+        left:40%;
+    }
+
+    main section.tercera button{
+        left: calc(50% - 64px);
+    }
+
+    main section.cuarta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main section.cuarta h2{
+        width: 80%;
+        text-align: center;
+    }
+
+    main section.cuarta button{
+        margin-bottom: 40px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    a:hover{
+        color: #F3603B;
+    }
+
+    footer div.icons{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer div.icons img.logofooter{
+        flex-wrap: nowrap;
+        padding: 37px;
+        margin-bottom: 90px;
+    }
+
+    footer div.icons nav ul.redes{
+        padding: 0px;    
+    }
+    footer div.icons nav ul li{
+        padding: 15px 7px;
+        font-size: 25px;
+    }
+    footer div.icons nav ul li i{
+        font-size: 25px;
+    }
+
+    footer div.enlaces{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top:75px;
+
+    }
+    footer div.enlaces nav.hiperv{
+        /* width: 40%; */
+        padding-top: 65px;
+        padding-bottom: 15px;
+    }
+    footer div.enlaces nav.hiperv ul{
+        display: block;
+        list-style-type: none;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+
+    footer div.formulario{
+        padding-top: 45px;
+        padding-right: 45px;
+        left: 50px;
+        /* position: absolute; */
+        position: absolute;
+    }
+
+    footer div.formulario p{
+        position: absolute;
+        top:400px;
+        left:45px;
+    }
+
+
+    .obj-1{
+        order:3;
+    }
+    .obj-2{
+        order:2;
+    }
+    .obj-3{
+        order:-1;
+    }
+ 
+}
+
+
